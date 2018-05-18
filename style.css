@@ -1,4 +1,4 @@
-.web,#b1,#b2,#b5,.box2{margin: 0 auto;}
+.web,#b1,#b2,#b5,.box2,#box6,.e1{margin: 0 auto;}
 .web {width: 1600px;}
 .clearfix{clear: both;}
 
@@ -37,6 +37,8 @@ padding-right:10px;
 padding-top: 20px;
 padding-bottom: 20px}
 .a3-3{background-color: seashell}
+.a3-1{color:white }
+.a3-2{color:rgba(255, 255, 255, 0.302)}
 
 #webb{height: 710px;}
 #b1{width: 250px;
@@ -50,13 +52,15 @@ text-align: center}
 
     .box2 img{width:30px;
 float: left;}
-.box2{width: 30%}
+.box2{width:50%
+}
 .box2-box1{margin-left: 10px;
 float: left;}
 .b3{font-weight: bold}
 .b4{color: rgb(204, 190, 190)}
 #b5{width: 1000px;
-    display:flex
+    display:flex;
+    margin-bottom: 100px
 }
 #b6{margin-top: 90px}
 
@@ -86,3 +90,130 @@ top: 133px;
 right:0px;
 border: darkgray 1px solid;
 border-radius: 50px 0 0 50px }
+
+
+#webd{height: 580px;
+border-bottom: darkgray 1px solid}
+#d1{font-size: 2rem;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 80px}
+#box6{width:60%;
+display:flex;
+text-align: center}
+#d2{width:25%;
+margin: 0 auto}
+.d3{color: darkgray}
+
+#webe{height: 1000px;
+padding-top:120px;
+border-bottom: darkgray 1px solid }
+.e1{width: 1000px;
+
+}
+#e2{float: right;
+width: 290px;}
+.e3{font-weight: bold;
+margin-top: 80px}
+.e4{color: darkgray;
+margin-top: 40px;
+}
+#e5{width:290px;
+float: left;}
+#e6{float: right;}
+#e7{margin-top: 120px}
+
+
+
+#webf{height:1100px;
+text-align: center;
+position: relative;
+border-bottom: darkgray 1px solid}
+#f1{font-size: 2rem;
+font-weight: bold;
+margin-top: 100px;
+margin-bottom: 40px}
+#f2{width: 700px;
+margin: 0 auto;
+color: darkgray;
+margin-bottom: 100px}
+#webf table{position: absolute;
+top: 270px;
+left:315px}
+td{padding-right:20px;
+padding-bottom: 20px}
+#f3{
+position: absolute ;
+top:0;
+left: 0;
+display:block
+}
+#f3:hover,
+#f4:hover+#f3{display:none;}
+/*当hover在f3的时候f3会消隐,露出f4.此时鼠标在4上,hover解除,f3又出现,就疯狂闪烁
+因此加入第二个,当我在F4hover时对f3隐藏*/
+
+#webg{height: 700px;}
+#box7{border: darkgray 1px solid;
+width:470px;
+height: 560px;
+ }
+#g1{text-align: center;
+font-size: 1.5rem;
+margin-top:40px}
+.gb1{height: 50px;
+width: 370px;
+border: darkgray 1px solid;
+line-height: 50px;
+color: darkgray;
+margin: 30 auto}
+.gb2{height: 145px;
+width: 370px;
+color: darkgray;
+margin:  auto;
+border: rgb(204, 190, 190) 1px solid;
+line-height: 145px}
+.gb3{margin: 30px auto;
+background-color: black;
+color: white;
+width: 370px;
+height: 50px;
+line-height:50px;
+font-size: 1.5rem;
+text-align: center}
+#box8{width:470px;
+    height: 560px;
+
+}
+#box9{width:1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around}
+.g2{font-size: 1.5rem;
+margin-top: 90px;
+margin-bottom: 40px}
+.g3{color: darkgray;
+margin-bottom: 75px}
+.gb4 img{float: left;
+margin-right: 20px;}
+.gb4 div{margin-bottom: 20px}
+
+#webi{height: 420px;
+background-color: black;
+position: relative}
+
+.i1{color:white}
+.i2{color:darkgray}
+#webi table{position: absolute;
+top:90px;
+left:215px;
+line-height: 30px}
+#webi table td{width: 250px}
+#i3{position: absolute;
+top: 90px;
+left: 1115px;
+line-height: 30px;
+}
+#i3 div {margin-bottom: 30px}
+
+
